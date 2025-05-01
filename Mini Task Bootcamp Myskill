@@ -1,0 +1,37 @@
+import pandas as pd
+
+from google.colab import files
+
+dataset = pd.read_csv('data_mini_task.csv')
+
+from google.colab import files
+
+uploaded = files.upload()
+
+print(dataset.dtypes)
+
+dataset = dataset.drop_duplicates()
+
+print('data setelah penghapusan duplikat:\n', dataset)
+
+dataset['id'] = dataset.index
+dataset
+
+for column in dataset.columns:
+  if dataset[column].dtype == 'object':
+    dataset[column] = dataset[column].astype('string')
+  elif dataset[column].dtype == 'float64':
+    dataset[column] = dataset[column].astype('float32')
+  elif dataset[column].dtype == 'int64':
+    dataset[column] = dataset[column].astype('int32')
+
+print(dataset.dtypes)
+
+print(dataset)
+
+dataset['Umur'] = dataset['Umur'].astype(str).str.replace(",", '').str.replace('“', '').str.replace('”', '').astype(float).astype(int)
+dataset['Tinggi Badan'] = dataset['Tinggi Badan'].astype(float).astype(int)
+dataset
+
+dataset['Tinggi Badan'].fillna(dataset['Tinggi Badan'].mean(), inplace=True)
+dataset
