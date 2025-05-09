@@ -1,9 +1,13 @@
-- 👋 Hi, I’m @nandtaswtun
+- 👋 Hi, I’m Enan
 - 👀 I’m interested in administration and data analysis
-- 🌱 I’m currently learning python, microsoft excel
+- 🌱 I’m currently learning python, jupyter, and microsoft excel
 - 📫 How to reach me on instagram: @nandtaswtun
 - 😄 Pronouns: she/her
-- ⚡ Fun fact: i love honkai: star rail hehehe
+- ⚡ Fun fact:
+- I love honkai: star rail hehehe (ID: 830020588)
+- I'm still basic for drinking Americano, because if I drink coffee with sugar and creamer I always fall asleep
+- I'm a math student
+- I'm alive
 
 <!---
 nandtaswtun/nandtaswtun is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
