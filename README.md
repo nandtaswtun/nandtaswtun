@@ -6,7 +6,7 @@
 - ⚡ Fun fact:
 - I love honkai: star rail hehehe (ID: 830020588)
 - I'm still basic for drinking Americano, because if I drink coffee with sugar and creamer I always fall asleep
-- I'm a math student
+- I'm a Bachelor of Mathematics
 - I'm alive
 
 <!---
